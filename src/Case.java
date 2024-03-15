@@ -1,7 +1,7 @@
 public class Case {
-    protected boolean contientUneBombe;
-    protected boolean estDecouverte;
-    protected boolean estMarquee;
+    protected boolean contientUneBombe = false;
+    protected boolean estDecouverte = false;
+    protected boolean estMarquee = false;
 
     public Case(){
 

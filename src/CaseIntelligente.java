@@ -1,10 +1,11 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class CaseIntelligente {
+public class CaseIntelligente extends Case {
         private List<Case> lesVoisins;
 
         public CaseIntelligente(){
+            super();
             lesVoisins = new ArrayList<>();
         }
 

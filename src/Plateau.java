@@ -49,7 +49,9 @@ public class Plateau {
         return this.nbBombes;
     }
 
-    public void getCase(int numLigne, int numColonne) {
+    public Case getCase(int numLigne, int numColonne) {
+        CaseIntelligente res = new CaseIntelligente();
+        return res;
     }
 
     public int getNbCasesMarquees() {
